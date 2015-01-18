@@ -6,6 +6,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Welcome extends Application {
 
+        /*
+         * The index page for the Welcome controller.
+         * Shows the "home" view.
+         */
 	public function index() {
             // Display the home page
             $this->data[ 'menubar' ] = build_menu_bar( $this->choices, '/' );

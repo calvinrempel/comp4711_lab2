@@ -7,6 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Contact extends Application {
     
+        /*
+         * The index page for the Contact controller.
+         * Shows the "contact" view.
+         */
 	public function index()
 	{
             $this->data[ 'menubar' ] = build_menu_bar( $this->choices, 'contact' );

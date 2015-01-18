@@ -9,9 +9,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class News extends Application {
     
+        /*
+         *  The length of the post body to show in the "all news" section.
+         */
         const ALL_POSTS_BODY_LENGTH = 200;
+        
+        /*
+         * The length of the post body to show in the "most popular" section.
+         */
         const SIDEBAR_POSTS_BODY_LENGTH = 100;
     
+        /*
+         * The index page for the News controller.
+         * Shows the "news" view with a list of all News posts as well as a
+         * siebar containing the most popular posts.
+         */
 	public function index()
 	{
             // Retrieve posts from the Posts model

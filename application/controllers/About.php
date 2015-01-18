@@ -6,6 +6,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class About extends Application {
     
+        /*
+         * The index page for the About controller.
+         * Shows the "about" view.
+         */
 	public function index()
 	{
             $this->data[ 'menubar' ] = build_menu_bar( $this->choices, 'about' );
