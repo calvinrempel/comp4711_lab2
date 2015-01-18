@@ -8,10 +8,12 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class About extends CI_Controller {
+class About extends Application {
     
 	public function index()
 	{
-		$this->load->view('about');
+            $this->data[ 'menubar' ] = build_menu_bar( $this->choices, 'about' );
+            $this->data[ 'pagebody' ] = 'about';
+            $this->render();
 	}
 }
