@@ -7,7 +7,7 @@
                         </p>
                 </div>
                 <h1>{title}<span class="author">{author} {month} {year}</span></h1>
-                {post}
+                {body}
                 <span><a href="/news" class="more">Back to News</a></span>
         </div>
 </div>
