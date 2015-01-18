@@ -5,7 +5,7 @@ class Application extends CI_Controller {
     protected $data = array();
     protected $id;
     protected $choices = array(
-        'Home'      => '/',
+        'Home'      => '',
         'Features'  => 'features',
         'News'      => 'news',
         'About'     => 'about',
