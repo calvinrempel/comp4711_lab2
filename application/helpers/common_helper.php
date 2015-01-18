@@ -70,7 +70,7 @@ function build_menu_bar($choices, $current)
     {
         $active = ( $link === $current ) ? ' class="active"' : '';
         
-	$result .= "<li $active><a href='$link'>$name</a></li>";
+	$result .= "<li $active><a href='/$link'>$name</a></li>";
     }
     $result .= '</ul>';
     return $result;
