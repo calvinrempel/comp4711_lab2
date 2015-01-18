@@ -4,36 +4,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Zerotype Website Template</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="public/assets/css/style.css" type="text/css">
 </head>
 <body>
 	<div id="header">
 		<div>
 			<div class="logo">
-				<a href="index.html">Zero Type</a>
+				<a href="/">Zero Type</a>
 			</div>
 			<ul id="navigation">
 				<li class="active">
-					<a href="index.html">Home</a>
+					<a href="/">Home</a>
 				</li>
 				<li>
-					<a href="features.html">Features</a>
+					<a href="/features">Features</a>
 				</li>
 				<li>
-					<a href="news.html">News</a>
+					<a href="/news">News</a>
 				</li>
 				<li>
-					<a href="about.html">About</a>
+					<a href="/about">About</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 	<div id="adbox">
 		<div class="clearfix">
-			<img src="images/box.png" alt="Img" height="342" width="368">
+			<img src="public/assets/images/box.png" alt="Img" height="342" width="368">
 			<div>
 				<h1>Ideas?</h1>
 				<h2>That's what we live for.</h2>

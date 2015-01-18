@@ -4,29 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>News - Zerotype Website Template</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="public/assets/css/style.css" type="text/css">
 </head>
 <body>
 	<div id="header">
 		<div>
 			<div class="logo">
-				<a href="index.html">Zero Type</a>
+				<a href="/">Zero Type</a>
 			</div>
 			<ul id="navigation">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="/">Home</a>
 				</li>
 				<li>
-					<a href="features.html">Features</a>
+					<a href="/features">Features</a>
 				</li>
 				<li class="active">
-					<a href="news.html">News</a>
+					<a href="/news">News</a>
 				</li>
 				<li>
-					<a href="about.html">About</a>
+					<a href="/about">About</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -77,19 +77,19 @@
 			<h1>Popular Posts</h1>
 			<ul class="posts">
 				<li>
-					<h4 class="title"><a href="post.html">Making It Work</a></h4>
+					<h4 class="title"><a href="/post">Making It Work</a></h4>
 					<p>
 						I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
 					</p>
 				</li>
 				<li>
-					<h4 class="title"><a href="post.html">Designs and Concepts</a></h4>
+					<h4 class="title"><a href="/post">Designs and Concepts</a></h4>
 					<p>
 						I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
 					</p>
 				</li>
 				<li>
-					<h4 class="title"><a href="post.html">Getting It Done!</a></h4>
+					<h4 class="title"><a href="/post">Getting It Done!</a></h4>
 					<p>
 						I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
 					</p>
