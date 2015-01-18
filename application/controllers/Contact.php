@@ -2,6 +2,9 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/*
+ * The Contact Controller displays the "contact" page view.
+ */
 class Contact extends Application {
     
 	public function index()

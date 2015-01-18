@@ -2,6 +2,9 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/*
+ * The Features Controller displays the "features" page view.
+ */
 class Features extends Application {
     
 	public function index()

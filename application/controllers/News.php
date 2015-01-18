@@ -2,6 +2,11 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/*
+ * The News Controller displays the "news" page view.
+ * 
+ * News posts are pulled from the Posts model to populate the view.
+ */
 class News extends Application {
     
         const ALL_POSTS_BODY_LENGTH = 200;
@@ -9,9 +14,11 @@ class News extends Application {
     
 	public function index()
 	{
+            // Retrieve posts from the Posts model
             $posts = $this->posts->all();
             $featured_posts = $this->posts->most_popular();
             
+            // Initialize post output html
             $this->data[ 'posts' ] = '';
             $this->data[ 'sidebar_posts' ] = '';
             
@@ -27,6 +34,7 @@ class News extends Application {
                 $this->data[ 'sidebar_posts' ] .= $this->parser->parse( '_post_sidebar_template', (array) $post, true );
             }
             
+            // Setup the menu and view and render the page.
             $this->data[ 'menubar' ] = build_menu_bar( $this->choices, 'news' );
             $this->data[ 'pagebody' ] = 'news';
             $this->render();
