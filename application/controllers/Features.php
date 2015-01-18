@@ -2,10 +2,12 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Features extends CI_Controller {
+class Features extends Application {
     
 	public function index()
 	{
-		$this->load->view('features');
+            $this->data[ 'menubar' ] = build_menu_bar( $this->choices, 'features' );
+            $this->data[ 'pagebody' ] = 'features';
+            $this->render();
 	}
 }
