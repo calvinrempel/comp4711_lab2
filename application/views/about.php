@@ -4,29 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About - Zerotype Website Template</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="public/assets/css/style.css" type="text/css">
 </head>
 <body>
 	<div id="header">
 		<div>
 			<div class="logo">
-				<a href="index.html">Zero Type</a>
+				<a href="/">Zero Type</a>
 			</div>
 			<ul id="navigation">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="/">Home</a>
 				</li>
 				<li>
-					<a href="features.html">Features</a>
+					<a href="/features">Features</a>
 				</li>
 				<li>
-					<a href="news.html">News</a>
+					<a href="/news">News</a>
 				</li>
 				<li class="active">
-					<a href="about.html">About</a>
+					<a href="/about">About</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>

@@ -4,29 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Features - Zerotype Website Template</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="public/assets/css/style.css" type="text/css">
 </head>
 <body>
 	<div id="header">
 		<div>
 			<div class="logo">
-				<a href="index.html">Zero Type</a>
+				<a href="/">Zero Type</a>
 			</div>
 			<ul id="navigation">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="/">Home</a>
 				</li>
 				<li class="active">
-					<a href="features.html">Features</a>
+					<a href="/features">Features</a>
 				</li>
 				<li>
-					<a href="news.html">News</a>
+					<a href="/news">News</a>
 				</li>
 				<li>
-					<a href="about.html">About</a>
+					<a href="/about">About</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -38,7 +38,7 @@
 				Change, add, and remove items as you like. If you're having problems editing this website template, then don't hesitate to ask for help on the Forums.
 			</p>
 			<div>
-				<img src="images/recycle.png" alt="Img">
+				<img src="public/assets/images/recycle.png" alt="Img">
 				<h2>Customizable and Easy</h2>
 				<p>
 					You can replace all this text with your own text. Want an easier solution for a Free Website? Head straight to Wix and immediately start customizing your website!
@@ -49,7 +49,7 @@
 				</p>
 			</div>
 			<div>
-				<img src="images/box-of-icons.png" alt="Img">
+				<img src="public/assets/images/box-of-icons.png" alt="Img">
 				<h2>More Design Elements</h2>
 				<p>
 					Wix also offers a ton of free design elements right inside the editor, like images, icons, galleries, videos and large selection of Add Ons and social feeds.
