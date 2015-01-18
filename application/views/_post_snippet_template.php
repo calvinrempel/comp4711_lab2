@@ -7,7 +7,7 @@
         </div>
         <h2>{title} <span>{author}</span></h2>
         <p>
-                {body}<span><a href="/post/{id}" class="more">Read More</a></span>
+                {body}<span><a href="/post/id/{id}" class="more">Read More</a></span>
         </p>
 </li>
 
